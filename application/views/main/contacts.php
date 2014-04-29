@@ -1,4 +1,4 @@
-<div class="row-fluid" id="contacts">
+<div class="row-fluid" id="contacts"><a name="contacts"></a>
 	<div class="row-fluid">
 		<div class="span4 title_border"></div>
 		<div class="span4 block_title">Контакты</div>
@@ -10,7 +10,7 @@
 			<li data-city="1" class="active_link">г.Йошкар-Ола</li>
 			<li data-city="2">г.Ульяновск</li>
 			<li data-city="3">г.Магнитогорск</li>
-			<li data-city="4">г.Дмитровград</li>
+			<li data-city="4">г.Димитровград</li>
 			<li class="helper"></li>
 		</ul>
 	</div>
@@ -64,7 +64,7 @@
 		    		<div class="span6 contact_map">
 		    			<p><b>Как добраться:</b></p>
 		    			<p>
-		    				<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=2Jdiai9wCcIoIvaui9CyMhH6AvN4V97N&width=600&height=250"></script>
+		    				<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=9Bo1bnJmdtXHBvpyEOSU6iwB1E-HoAKk&width=600&height=330"></script>
 		    			</p>
 		    		</div>
 		    	</div>
@@ -102,7 +102,7 @@
 		    		<div class="span6 contact_map">
 		    			<p><b>Как добраться:</b></p>
 		    			<p>
-		    				<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=2Jdiai9wCcIoIvaui9CyMhH6AvN4V97N&width=600&height=250"></script>
+		    				<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=o1SjR9XZ3CvTJzg1wabv8E8na2rhFzt5&width=600&height=250"></script>
 		    			</p>
 		    		</div>
 		    	</div>
@@ -121,7 +121,7 @@
 		    		<div class="span6 contact_map">
 		    			<p><b>Как добраться:</b></p>
 		    			<p>
-		    				<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=2Jdiai9wCcIoIvaui9CyMhH6AvN4V97N&width=600&height=250"></script>
+		    				<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=Vuk3DwLwNbEnhTlCAPp2babF8uTZ2qix&width=600&height=250"></script>
 		    			</p>
 		    		</div>
 		    	</div>
@@ -140,7 +140,7 @@
 		    		<div class="span6 contact_map">
 		    			<p><b>Как добраться:</b></p>
 		    			<p>
-		    				<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=2Jdiai9wCcIoIvaui9CyMhH6AvN4V97N&width=600&height=250"></script>
+		    				<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=MO5NvP_5cgwOOntF3KDUviL3hKdLB8x3&width=600&height=250"></script>
 		    			</p>
 		    		</div>
 		    	</div>

@@ -1,14 +1,17 @@
 $(document).ready(function(){
 	$('#back_summ').text($('#minbeds').val());
+	$('#back_summ_input').val($('#minbeds').val());
 
 	$(document).on('slidechange','#slider_beds', function(event, ui){
 		if($('#mindays').val() > 7){
 			var money = parseInt($('#minbeds').val());
 			var daysback = parseInt($('#mindays').val());
 			$('#back_summ').text(money+(money*daysback*0.015));
+			$('#back_summ_input').val(money+(money*daysback*0.015));
 		}
 		else{
 			$('#back_summ').text($('#minbeds').val());
+			$('#back_summ_input').val($('#minbeds').val());
 		}
 		
 	});
@@ -56,4 +59,21 @@ $(document).ready(function(){
 		$('.answer[answer-id="'+qid+'"]').slideToggle();
 
 	});
+
+
+	$('#fixed_navbar').liFixar({
+	  side: 'top',                 // "top" (по умолчанию), "bottom", "all"  -
+	                               // сторона, к которой блок будет прилипать
+	                  
+	  position: 0,                // любое целое число - расстояние от элемента до края экрана,
+	                               // при котором элемент остановится и зафиксируется
+	                  
+	  fix: function(el, side){},   // Функция выполняется, когда элемент прилипает
+	  unfix: function(el, side){}  // Функция выполняется, когда элемент отлипает
+	});
+
+	// $('#fixed_navbar').liFixar('setPosition','200px 100px')
+	
+
+
 });

@@ -5,17 +5,41 @@
 <link href="/include/images/favicon.png" rel="shortcut icon" type="image/png" />
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular&subset=Latin,Cyrillic">
 <link rel="stylesheet" type="text/css" href="/include/css/style.css">
-<link rel="stylesheet" type="text/css" href="/include/css/bootstrap-responsive.css">
+<link rel="stylesheet" type="text/css" href="/include/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/include/css/scrollup.css">
 <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
 <link href="/include/css/bootstrap-formhelpers.min.css" rel="stylesheet" media="screen">
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 <script type="text/javascript" src="/include/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/include/js/bootstrap-formhelpers.min.js"></script>
+<script type="text/javascript" src="/include/js/validation/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/include/js/form.js"></script>
 <script type="text/javascript" src="/include/js/time.js"></script>
 <script type="text/javascript" src="/include/js/script.js"></script>
+<script type="text/javascript" src="/include/js/anchor.js"></script>
+<script type="text/javascript" src="/include/js/jquery.liFixar.js"></script>
+<script type="text/javascript" src="/include/js/scrollup.js"></script>
 
 
 </head>
 <body>
 	<div class="container">
+
+
+<!-- <a role="button" class="btn" data-toggle="modal" data-target="#myModal">Запустить демонстрацию модального элемента</a> -->
+ 
+
+<div class="modal hide fade" id="myModal" tabindex="-1" role="dialog"aria-labelledby="myModalLabel"aria-hidden="true">
+<div class="modal-header">
+<button type="button" class="close"data-dismiss="modal"aria-hidden="true">×</button>
+<h3 id="myModalLabel">Ваша заявка принята!</h3>
+</div>
+<div class="modal-body">
+<p>Спасибо за то, что выбрали нас. В ближайшее время наш сотрудник свяжется с Вами.</p>
+</div>
+<div class="modal-footer">
+<!-- <button class="btn"data-dismiss="modal"aria-hidden="true">Закрыть</button> -->
+<div id="btn_ok"><button class="btn btn-primary" data-dismiss="modal"aria-hidden="true">&nbsp;&nbsp;&nbsp;ОК&nbsp;&nbsp;&nbsp;</button></div>
+</div>
+</div>

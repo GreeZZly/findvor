@@ -1,4 +1,4 @@
-<div class="row-fluid" id="profit">
+<div class="row-fluid" id="profit"><a name="profit"></a>
 	<div class="row-fluid">
 		<div class="span4 title_border"></div>
 		<div class="span4 block_title">Ваши выгоды</div>

@@ -14,7 +14,7 @@
 				</div>
 			</div>
 			<div class="span4">
-				<button class="btn btn-danger btn-large pull-right" id="footer_btn">Получить деньги</button>
+				<a href="#calculator"><button class="btn btn-danger btn-large pull-right" id="footer_btn">Получить деньги</button></a>
 
 			</div>
 		</div>

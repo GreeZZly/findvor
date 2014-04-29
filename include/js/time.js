@@ -28,6 +28,7 @@ $(document).ready(function() {
      $('#date_daynum').text(currentDate);
      $('#date_mon').text(currentMonth + ', ' + currentYear + 'г.');
      $('#date_day').text(currentDay);
+     $('#backdate_input').val(currentDate+' '+currentMonth + ' ' + currentYear + 'г.');
   $(document).on('slidechange','#slider_days', function(event, ui){
      var currentTime = new Date(new Date().getTime()+$('#mindays option:selected').val()*24*60*60*1000);//Получаем текущую дату 
      var currentDay = days[currentTime.getDay()];//Вытаскваем из нашего массива текущий день недели 
@@ -41,13 +42,16 @@ $(document).ready(function() {
      $('#date_daynum').text(currentDate);
      $('#date_mon').text(currentMonth + ', ' + currentYear + 'г.');
      $('#date_day').text(currentDay);
+     $('#backdate_input').val(currentDate+' '+currentMonth + ' ' + currentYear + 'г.');
      if($('#mindays').val() > 7){
       var money = parseInt($('#minbeds').val());
       var daysback = parseInt($('#mindays').val());
       $('#back_summ').text(money+(money*daysback*0.015));
+      $('#back_summ_input').val(money+(money*daysback*0.015));
     }
     else{
       $('#back_summ').text($('#minbeds').val());
+      $('#back_summ_input').val($('#minbeds').val());
     }
    });
    // clock(); //вызываем функцию времени 

@@ -3,6 +3,8 @@
 body, html {
 	 font-family: Ubuntu, sans-serif;
 	 font-size: 16px;
+	 /*min-width: 940px;*/
+	 /*max-width: 940px;*/
 }
 
 
@@ -143,8 +145,13 @@ body, html {
 #fixed_navbar li {
 	line-height: 40px;
 }
+#fixed_navbar li a{
+
+	padding: 10px 17px 10px;
+}
 #fixed_navbar {
-	margin: 40px 0;
+	font-size: 18px;
+	margin: 40px 0 0;
 }
 #hww_img {
 	background-image: url(/include/images/work.png);
@@ -363,4 +370,41 @@ body, html {
 
 .bold {
 	font-weight: bold;
+}
+
+#header_logo {
+	width: 300px;
+	height: 74px;
+	position: absolute;
+	background-image: url(/include/images/logo.png);
+	cursor: pointer;
+}
+
+#header_navbar .brand {
+	width: 270px;
+}
+#header_navbar .navbar-inner {
+	height: 62px;
+	font-size: 22px;
+}
+#header_navbar .navbar-inner li{
+	line-height: 40px;
+}
+
+#profit, #whywe, #trust, #about_us, #contacts  {
+	margin-top: 50px;
+}
+
+.error {
+	color: red;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+#calc_right_second {
+	font-size: 12px;
+}
+
+#btn_ok {
+	text-align: center;
 }

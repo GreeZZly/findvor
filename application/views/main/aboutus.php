@@ -1,4 +1,4 @@
-<div class="row-fluid" id="about_us">
+<div class="row-fluid" id="about_us"><a name="about_us"></a>
 	<div class="row-fluid">
 		<div class="span4 title_border"></div>
 		<div class="span4 block_title">О нас</div>
