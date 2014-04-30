@@ -9,7 +9,7 @@
       <li><a href="#trust">Почему мы?</a></li>
       <li><a href="#about_us">О нас</a></li>
       <li><a href="#contacts">Контакты</a></li>
+      <li><a href="#calculator"><button class="btn btn-danger btn-large">Получить деньги</button></a></li>
     </ul>
-      <a href="#calculator"><button class="btn btn-danger pull-right btn-large">Получить деньги</button></a>
   </div>
 </div>

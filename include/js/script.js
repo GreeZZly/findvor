@@ -69,18 +69,28 @@ $(document).ready(function(){
 	                               // при котором элемент остановится и зафиксируется
 	                  
 	  fix: function(el, side){
-	  	$("#header_logo").animate({width:"0"}, 1000);
-	  	$("#header_navbar .brand").animate({width:"200"}, 1000);
-	  	$("#header_navbar a").animate({"font-size":"18px", "padding":"10px 15px 10px"}, 1000);
+	  	$("#header_logo").stop();
+	  	$("#header_navbar .brand").stop();
+	  	$("#header_navbar a").stop();
+	  	$("#header_navbar button").stop();
+	  	$("#header_logo").animate({width:"0"}, 250);
+	  	$("#header_navbar .brand").animate({width:"200"}, 250);
+	  	$("#header_navbar a").delay(250).animate({"padding":"10px 12px 10px"}, 250);
 	  	// $("#header_navbar button").animate({"width":"0px"}, 1000);
-	  	$("#header_navbar button").delay(2000).slideToggle();
+	  	$("#header_navbar button").delay(750).fadeIn(250);
+	  	// el.clearQueue();
 
 	  },   // Функция выполняется, когда элемент прилипает
 	  unfix: function(el, side){  // Функция выполняется, когда элемент отлипает
-	  	$("#header_logo").delay(750).animate({width:"300px"}, 1000);
-	  	$("#header_navbar .brand").delay(750).animate({width:"270"}, 1000);
-	  	$("#header_navbar a").delay(750).animate({"font-size":"22px",  "padding":"10px 20px 10px"}, 1000);
-	  	$("#header_navbar button").slideToggle();
+	  	$("#header_logo").stop();
+	  	$("#header_navbar .brand").stop();
+	  	$("#header_navbar a").stop();
+	  	$("#header_navbar button").stop();
+	  	$("#header_logo").delay(250).animate({width:"300px"}, 250);
+	  	$("#header_navbar .brand").delay(250).animate({width:"270"}, 250);
+	  	$("#header_navbar a").delay(250).animate({"font-size":"20px",  "padding":"10px 20px 10px"}, 250);
+	  	$("#header_navbar button").fadeOut(250);
+	  	// el.clearQueue();
 	  	// el.animate({"font-size":"22px"}, 1000);
 	  }
 	});
