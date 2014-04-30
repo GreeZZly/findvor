@@ -70,10 +70,10 @@ $(document).ready(function(){
 	                  
 	  fix: function(el, side){
 	  	$("#header_logo").animate({width:"0"}, 1000);
-	  	$("#header_navbar .brand").animate({width:"190"}, 1000);
+	  	$("#header_navbar .brand").animate({width:"200"}, 1000);
 	  	$("#header_navbar a").animate({"font-size":"18px", "padding":"10px 15px 10px"}, 1000);
 	  	// $("#header_navbar button").animate({"width":"0px"}, 1000);
-	  	$("#header_navbar button").delay(1200).slideToggle();
+	  	$("#header_navbar button").delay(2000).slideToggle();
 
 	  },   // Функция выполняется, когда элемент прилипает
 	  unfix: function(el, side){  // Функция выполняется, когда элемент отлипает
