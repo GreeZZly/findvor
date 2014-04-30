@@ -61,15 +61,28 @@ $(document).ready(function(){
 	});
 
 
-	$('#fixed_navbar').liFixar({
+	$('#header_navbar').liFixar({
 	  side: 'top',                 // "top" (по умолчанию), "bottom", "all"  -
 	                               // сторона, к которой блок будет прилипать
 	                  
 	  position: 0,                // любое целое число - расстояние от элемента до края экрана,
 	                               // при котором элемент остановится и зафиксируется
 	                  
-	  fix: function(el, side){},   // Функция выполняется, когда элемент прилипает
-	  unfix: function(el, side){}  // Функция выполняется, когда элемент отлипает
+	  fix: function(el, side){
+	  	$("#header_logo").animate({width:"0"}, 1000);
+	  	$("#header_navbar .brand").animate({width:"190"}, 1000);
+	  	$("#header_navbar a").animate({"font-size":"18px", "padding":"10px 15px 10px"}, 1000);
+	  	// $("#header_navbar button").animate({"width":"0px"}, 1000);
+	  	$("#header_navbar button").delay(1200).slideToggle();
+
+	  },   // Функция выполняется, когда элемент прилипает
+	  unfix: function(el, side){  // Функция выполняется, когда элемент отлипает
+	  	$("#header_logo").delay(750).animate({width:"300px"}, 1000);
+	  	$("#header_navbar .brand").delay(750).animate({width:"270"}, 1000);
+	  	$("#header_navbar a").delay(750).animate({"font-size":"22px",  "padding":"10px 20px 10px"}, 1000);
+	  	$("#header_navbar button").slideToggle();
+	  	// el.animate({"font-size":"22px"}, 1000);
+	  }
 	});
 
 	// $('#fixed_navbar').liFixar('setPosition','200px 100px')

@@ -7,7 +7,7 @@ class Main extends CI_Controller {
 			$this->load->view('main/htmlheader.html');
 			$this->load->view('main/header');
 			$this->load->view('main/calc');
-			$this->load->view('main/navbar_fixed');
+			// $this->load->view('main/navbar_fixed');
 			$this->load->view('main/how_we_work');
 			$this->load->view('main/profit');
 			$this->load->view('main/whywe');

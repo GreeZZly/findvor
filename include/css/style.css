@@ -379,7 +379,9 @@ body, html {
 	background-image: url(/include/images/logo.png);
 	cursor: pointer;
 }
-
+#header_navbar {
+	z-index: 999999999999;
+}
 #header_navbar .brand {
 	width: 270px;
 }
