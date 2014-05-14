@@ -57,7 +57,14 @@ class Main extends CI_Controller {
 			// $config['charset'] = 'iso-8859-1';
 			// $config['wordwrap'] = FALSE;
 			// $config['newline'] = TRUE;
-
+			$data['order'] = array('quantity'=>1,
+									'cost'=>$this->input->post('summ'),
+									'total_sum'=>$this->input->post('summ'),
+									'product'=>'Деньги',
+									'additional_data'=>array(
+															 'backsumm'=>$this->input->post('backsumm'),
+															 'backdate'=>$this->input->post('backdate'),
+															 'days'=>$this->input->post('days')));
 			$this->email->initialize($config);
 
 			$this->email->clear();
@@ -72,7 +79,9 @@ class Main extends CI_Controller {
 				echo json_encode(array("success" => false));
 		   	}
 
-
+		   	$this->load->library('apiforcrm');
+			$order = array('customer' => $data, 'order'=>array('description'=>json_encode(array($data['order']))), 'reg' =>false, 'phase'=>'cart' );
+			$answer  = $this->apiforcrm->setApi('d7769d0120e5825d3a431cbf4d968cf4e5d9f672')->setOrder($order);
 			// $this->load->view('main/htmlheader.html');
 			// $this->load->view('main/success');
 			// $this->load->view('main/htmlfooter.html');

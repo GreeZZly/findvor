@@ -92,7 +92,7 @@
 		    	<div class="row-fluid">
 		    		<div class="span3 contact_adress">
 		    			<p><b>Адрес:</b></p>
-		    			<p>ул.Гончарова 56/2,ост.Центробанк,со стороны Бульвара Пластова</p>
+		    			<p>ул.Красноармейская 1а</p>
 		    		</div>
 		    		<div class="span3 contact_man">
 		    			<p><b>Вас обслужит:</b></p>
