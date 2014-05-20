@@ -40,6 +40,7 @@ class Main extends CI_Controller {
 			$data = array('name' => $this->input->post('name'),
 							'email' => $this->input->post('email'),
 							'phone' => $this->input->post('phone'),
+							'type'=>'individual',
 							'summ' => $this->input->post('summ'),
 							'days' => $this->input->post('days'),
 							'backsumm' => $this->input->post('backsumm'),

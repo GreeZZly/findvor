@@ -145,7 +145,7 @@
 					<div class="row-fluid font14">
 						<div class="span12"><p>Мы гарантируем конфиденциальность ваших данных</p></div>
 					</div>
-					<div class="row-fluid font12"><p>*Только для тарифного плана "Деньги надом"</p></div>
+					<div class="row-fluid font12"><p>*Только для тарифного плана "Деньги на дом"</p></div>
 				</div>
 			</div>
 			<div class="row-fluid submit_wrap">

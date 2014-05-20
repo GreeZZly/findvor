@@ -135,7 +135,7 @@
 		    		<div class="span3 contact_man">
 		    			<p><b>Вас обслужит:</b></p>
 		    			<p>Карманова Александра Анверовна</p>
-		    			<p><img src="/include/images/employee/sokova.png"></p>
+		    			<p><img src="/include/images/employee/nina.png"></p>
 		    		</div>
 		    		<div class="span6 contact_map">
 		    			<p><b>Как добраться:</b></p>
